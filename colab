@@ -1,0 +1,8 @@
+#download files
+
+from google.colab import files
+files.download("filename")
+
+#upload files
+from google.colab import files
+files.upload("filename")
