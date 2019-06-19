@@ -1,5 +1,9 @@
-working with categorical data
+#working with categorical data
 http://bokeh.pydata.org/en/latest/docs/user_guide/categorical.html
 
-styling
+#styling
 https://bokeh.pydata.org/en/latest/docs/user_guide/styling.html
+
+#display bokeh HTML graph in iPython and Google Colab
+from IPython.core.display import display, HTML
+display(HTML('file.html'))
